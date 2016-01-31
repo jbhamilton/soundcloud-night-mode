@@ -1,0 +1,81 @@
+html,
+body,
+#content,
+.dropbar__content,
+.sound__soundActions,
+.l-footer,
+.listenLogin {
+  background-color: #222; }
+
+body {
+  background: none; }
+
+a.sc-link-dark,
+.sc-text-verylight {
+  color: #F2F2F2; }
+
+.truncatedUserDescription.m-overflow.m-collapsed .truncatedUserDescription__wrapper::after,
+.truncatedAudioInfo.m-overflow.m-collapsed .truncatedAudioInfo__wrapper::after {
+  background: none; }
+
+h1,
+.infoStats__description,
+.listenDetails,
+.commentItem__body,
+.compactTrackListItem__number, .compactTrackListItem__trackTitle,
+.sc-link-dark,
+.commentBadge__body,
+.commentBadge__title,
+.g-tabs-link,
+.g-tabs-link:visited,
+.ownActivitiesList__item .commentTitle__quotedBody {
+  color: #FFF; }
+
+.g-tabs-link.active {
+  color: #f50; }
+
+.l-fixed-top-one-column > .l-top {
+  background-color: #222; }
+  .l-fixed-top-one-column > .l-top a {
+    color: #F2F2F2; }
+
+.sc-border-light,
+.sc-border-light-bottom {
+  border-bottom-color: #D9D9D9; }
+
+.compactTrackList.sc-border-light,
+.listenEngagement {
+  border: none; }
+
+.compactTrackListItem__content:hover .compactTrackListItem__trackTitle,
+.sc-type-light.hover .trackItem__trackTitle,
+.chartTracks__item:hover .chartTrack__details .sc-link-dark,
+.linkMenu__item .sc-link-dark {
+  color: #222; }
+
+.compactTrackListItem__additional,
+.trackItem__additional {
+  background: none; }
+
+.commentForm {
+  background: #222 none repeat scroll 0, 0; }
+
+.conversation {
+  color: #FFF; }
+  .conversation .conversation__actions {
+    background: none;
+    background-color: #222; }
+
+.inbox__item .inboxItem.active .conversationParticipants__list,
+.inbox__item .inboxItem.unread .conversationParticipants__list {
+  color: #222; }
+
+.l-messages-left h1,
+.l-messages-left .messageGroupTitle {
+  color: #FFF; }
+
+.soundBadge__additional {
+  background: none;
+  background-color: #222; }
+
+/*# sourceMappingURL=soundcloud.css.map */

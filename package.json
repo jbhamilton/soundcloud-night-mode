@@ -1,0 +1,16 @@
+{
+  "title": "SoundCloud Night Mode",
+  "name": "soundcloud-night-mode",
+  "version": "0.0.1",
+  "description": "View soundcloud.com in night mode.",
+  "main": "index.js",
+  "author": "Bradley Hamilton",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}

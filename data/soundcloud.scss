@@ -1,0 +1,116 @@
+$white: #FFF;
+$black : #222;
+$grey0:#FAFAFA;
+$grey1:#F2F2F2;
+$grey2: #E3E3E3;
+$grey3: #A5A5A5;
+$grey4:#D9D9D9;
+
+$orange: #f50;
+
+
+html,
+body,
+#content,
+.dropbar__content,
+.sound__soundActions,
+.l-footer,
+.listenLogin {
+    background-color: $black;
+}
+
+body {
+    background:none;
+}
+
+a.sc-link-dark,
+.sc-text-verylight {
+    color: $grey1;
+}
+
+.truncatedUserDescription.m-overflow.m-collapsed .truncatedUserDescription__wrapper::after,
+.truncatedAudioInfo.m-overflow.m-collapsed .truncatedAudioInfo__wrapper::after {
+    background:none;
+}
+
+h1,
+.infoStats__description,
+.listenDetails,
+.commentItem__body,
+.compactTrackListItem__number, .compactTrackListItem__trackTitle,
+.sc-link-dark,
+.commentBadge__body,
+.commentBadge__title,
+.g-tabs-link,
+.g-tabs-link:visited,
+.ownActivitiesList__item .commentTitle__quotedBody {
+    color:$white;
+}
+
+.g-tabs-link.active {
+    color:$orange;
+}
+
+.l-fixed-top-one-column > .l-top {
+    background-color:$black;
+    a {
+        color:$grey1;
+    }
+}
+
+.sc-border-light,
+.sc-border-light-bottom {
+    border-bottom-color:$grey4;
+}
+
+.compactTrackList.sc-border-light,
+.listenEngagement {
+    border:none;
+}
+
+.compactTrackListItem__content:hover .compactTrackListItem__trackTitle,
+.sc-type-light.hover .trackItem__trackTitle,
+.chartTracks__item:hover .chartTrack__details .sc-link-dark,
+.linkMenu__item .sc-link-dark {
+    color:$black;
+}
+
+.compactTrackListItem__additional,
+.trackItem__additional {
+    background:none;
+}
+
+
+.commentForm {
+    background: $black none repeat scroll 0,0;
+}
+
+.conversation {
+    .conversation__actions {
+        background:none;
+        background-color:$black;
+    }
+
+    color: $white;
+}
+
+.inbox__item {
+    .inboxItem.active,
+    .inboxItem.unread {
+        .conversationParticipants__list {
+            color:$black;
+        }
+    }
+}
+
+.l-messages-left {
+    h1,
+    .messageGroupTitle {
+        color:$white;
+    }
+}
+
+.soundBadge__additional {
+    background:none;
+    background-color:$black;
+}
