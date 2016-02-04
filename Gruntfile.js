@@ -31,12 +31,9 @@ module.exports = function(grunt) {
         },
         cssmin: {
             target: {
-                files: [{
-                    cwd: 'data',
-                    src: ['*.css', '!*.min.css'],
-                    dest: './',
-                    ext: '.min.css'
-                }]
+                files: {
+                    'data/soundcloud.min.css' : 'data/soundcloud.css'
+                }
             }
         },
         watch: {

@@ -3,5 +3,6 @@ var self    = require("sdk/self"),
   
 pageMod.PageMod({
     include: "*.soundcloud.com",
-    contentStyleFile: self.data.url("soundcloud.css")
+    contentStyleFile: self.data.url("soundcloud.min.css")
 });
+

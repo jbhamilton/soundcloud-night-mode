@@ -31,6 +31,9 @@ h1,
 .ownActivitiesList__item .commentTitle__quotedBody {
   color: #FFF; }
 
+body .commentPopover__wrapper .commentPopover__body {
+  color: #FFF !important; }
+
 .g-tabs-link.active {
   color: #f50; }
 
@@ -77,5 +80,13 @@ h1,
 .soundBadge__additional {
   background: none;
   background-color: #222; }
+
+.modal__content .tabs .tabs__tabs,
+.modal__content .tabs .g-modal-section {
+  background: none;
+  background-color: #222; }
+
+body .addToPlaylistItem__actions {
+  background: none !important; }
 
 /*# sourceMappingURL=soundcloud.css.map */
