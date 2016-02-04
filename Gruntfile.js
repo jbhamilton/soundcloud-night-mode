@@ -46,6 +46,6 @@ module.exports = function(grunt) {
         }
     });
 
-    grunt.registerTask('default', ['babel','sass','postcss:dist','cssmin']);
+    grunt.registerTask('default', ['sass','postcss:dist','cssmin']);
 
 };
