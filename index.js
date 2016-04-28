@@ -3,6 +3,7 @@ var self    = require("sdk/self"),
   
 pageMod.PageMod({
     include: "*.soundcloud.com",
+    exclude: "https://w.soundcloud.com/player/*",
     contentStyleFile: self.data.url("soundcloud.min.css")
 });
 

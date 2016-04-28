@@ -11,8 +11,16 @@ body {
   background: none; }
 
 a.sc-link-dark,
+.sc-text-light,
 .sc-text-verylight {
   color: #F2F2F2; }
+
+a.sc-link-dark:hover,
+.g-tabs-link:hover,
+a.sc-link-medium:hover,
+a.sc-ministats:hover,
+a.sc-link-light:hover {
+  color: #f50; }
 
 .truncatedUserDescription.m-overflow.m-collapsed .truncatedUserDescription__wrapper::after,
 .truncatedAudioInfo.m-overflow.m-collapsed .truncatedAudioInfo__wrapper::after {
@@ -26,6 +34,9 @@ h1,
 .sc-link-dark,
 .commentBadge__body,
 .commentBadge__title,
+.embedPanel,
+.g-modal-title-h2,
+.localSelector .sc-text,
 .g-tabs-link,
 .g-tabs-link:visited,
 .ownActivitiesList__item .commentTitle__quotedBody {
@@ -88,5 +99,15 @@ body .commentPopover__wrapper .commentPopover__body {
 
 body .addToPlaylistItem__actions {
   background: none !important; }
+
+.dialog {
+  background-color: #222;
+  box-shadow: 0px 0px 2px 0px #FAFAFA;
+  color: #F2F2F2; }
+  .dialog .sc-ministats:hover {
+    color: #f50; }
+
+p {
+  color: #FFF; }
 
 /*# sourceMappingURL=soundcloud.css.map */
