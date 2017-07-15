@@ -110,4 +110,46 @@ body .addToPlaylistItem__actions {
 p {
   color: #FFF; }
 
+.playControls > .playControls__inner {
+  background-color: #3C3C3C; }
+  .playControls > .playControls__inner .playControls__wrapper {
+    background-color: #3C3C3C; }
+    .playControls > .playControls__inner .playControls__wrapper > .playControls__bg {
+      background-color: #3C3C3C; }
+    .playControls > .playControls__inner .playControls__wrapper .playControls__elements .playControls__icon.skipControl__previous {
+      background-image: url("img/prev.svg");
+      background-size: 75% 30%; }
+    .playControls > .playControls__inner .playControls__wrapper .playControls__elements .playControls__icon.skipControl__next {
+      background-image: url("img/next.svg");
+      background-size: 75% 30%; }
+    .playControls > .playControls__inner .playControls__wrapper .playControls__elements .playControls__icon.playControls__play {
+      background-image: url("img/play.svg");
+      background-size: 40% 40%; }
+      .playControls > .playControls__inner .playControls__wrapper .playControls__elements .playControls__icon.playControls__play.playing {
+        background-image: url("img/pause.svg"); }
+    .playControls > .playControls__inner .playControls__wrapper .playControls__elements .playControls__volume .volume__button {
+      background-image: url("img/volume.svg");
+      background-size: 100% 40%; }
+    .playControls > .playControls__inner .playControls__wrapper .playControls__elements .playControls__volume > .volume[data-level="0"] .volume__button {
+      background-image: url("img/volume-off.svg"); }
+    .playControls > .playControls__inner .playControls__wrapper .playControls__elements .playControls__volume > .volume[data-level="1"] .volume__button, .playControls > .playControls__inner .playControls__wrapper .playControls__elements .playControls__volume > .volume[data-level="2"] .volume__button, .playControls > .playControls__inner .playControls__wrapper .playControls__elements .playControls__volume > .volume[data-level="3"] .volume__button, .playControls > .playControls__inner .playControls__wrapper .playControls__elements .playControls__volume > .volume[data-level="4"] .volume__button, .playControls > .playControls__inner .playControls__wrapper .playControls__elements .playControls__volume > .volume[data-level="5"] .volume__button {
+      background-image: url("img/volume-down.svg"); }
+    .playControls > .playControls__inner .playControls__wrapper .playControls__elements .playControls__volume .volume__sliderWrapper {
+      left: -6px; }
+    .playControls > .playControls__inner .playControls__wrapper .playControls__elements .playControls__soundBadge .playbackSoundBadge__title {
+      color: #FFF; }
+
+.modal .modal__modal {
+  background-color: #3C3C3C;
+  color: #FFF; }
+
+textarea,
+select,
+input {
+  background-color: #D9D9D9;
+  color: #222; }
+
+.keyboardShortcuts__shortcutsGroup > dl > dt > kbd > kbd {
+  color: #222; }
+
 /*# sourceMappingURL=soundcloud.css.map */

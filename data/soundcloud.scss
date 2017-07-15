@@ -1,10 +1,14 @@
 $white: #FFF;
 $black : #222;
+$lightBlack:#3C3C3C;
 $grey0:#FAFAFA;
 $grey1:#F2F2F2;
 $grey2: #E3E3E3;
 $grey3: #A5A5A5;
 $grey4:#D9D9D9;
+
+$buttonGrey:#E9E9E9;
+$buttonBorder:#CCC;
 
 $orange: #f50;
 
@@ -155,5 +159,100 @@ body .addToPlaylistItem__actions {
 
 p {
     color:$white;
+}
+
+.playControls {
+    & > .playControls__inner {
+        background-color:$lightBlack;
+
+        .playControls__wrapper {
+            background-color:$lightBlack;
+
+            & > .playControls__bg {
+                background-color:$lightBlack;
+            }
+
+            .playControls__elements {
+                .playControls__icon {
+
+                    &.skipControl__previous {
+                        background-image:url('img/prev.svg');
+                        background-size:75% 30%;
+                    }
+
+                    &.skipControl__next {
+                        background-image:url('img/next.svg');
+                        background-size:75% 30%;
+                    }
+
+                    &.playControls__play {
+                        background-image:url('img/play.svg');
+                        background-size:40% 40%;
+                        &.playing {
+                            background-image:url('img/pause.svg');
+                        }
+                    }
+
+                }
+
+                .playControls__volume {
+                    .volume__button {
+                        background-image:url('img/volume.svg');
+                        background-size:100% 40%;
+                    }
+                    & > .volume {
+                        &[data-level="0"] {
+                            .volume__button {
+                                background-image:url('img/volume-off.svg');
+                            }
+                        }
+                        &[data-level="1"],
+                        &[data-level="2"],
+                        &[data-level="3"],
+                        &[data-level="4"],
+                        &[data-level="5"] {
+                            .volume__button {
+                                background-image:url('img/volume-down.svg');
+                            }
+                        }
+
+                    }
+
+                    .volume__sliderWrapper {
+                        left:-6px;
+                    }
+
+                }
+
+                .playControls__soundBadge {
+                    .playbackSoundBadge__title {
+                        color:$white;
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+
+.modal {
+
+    .modal__modal {
+        background-color:$lightBlack;
+        color:$white;
+    }
+
+}
+
+textarea,
+select,
+input {
+    background-color:$grey4;
+    color:$black;
+}
+
+.keyboardShortcuts__shortcutsGroup > dl > dt > kbd > kbd {
+    color:$black;
 }
 

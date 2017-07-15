@@ -4,7 +4,7 @@
   "description" : "Theme soundcloud.com with a darker (night mode) theme",
   "author" : "Bradley Hamilton",
   "license": "Apache License",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-postcss": "~0.7.1",
